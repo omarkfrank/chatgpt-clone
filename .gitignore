@@ -1,2 +1,69 @@
+# ===========================
+# 📁 ROOT (Monorepo – Client + Server)
+# ===========================
+
+# Node modules (client + server)
 node_modules/
+
+# Output / build folders
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# PIDs
+pids
+*.pid
+*.seed
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.eslintcache/
+
+# Vite
+client/.vite/
+client/vite.config.js.timestamp
+client/vite.config.ts.timestamp
+
+# React
+client/.parcel-cache/
+client/.next/
+client/.turbo/
+
+# Server cache
+server/.cache/
+server/dist/
+server/build/
+
+# Lockfiles
+package-lock.json
+
+
+# Misc
+*.swp
+*.swo
